@@ -1,0 +1,160 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+html{
+    background-color:#fff;
+    color:#555;
+    font-family:Arial,sans-serif;
+    font-weight:300;
+    font-size:20px;
+    text-rendering:optimizeLegibility;
+
+}
+header .active{
+    background-color: rgba(0,0,0,.2);
+}
+.logo img{
+    float:left;
+    height: 70px;
+    width:70px;
+    border-radius:50%;
+    margin-left: 50px;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, .6);
+
+
+}
+
+
+header{
+    background-image:linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.3)), url("bb.jpg");
+    background-attachment: fixed;
+    font-family:pacifco;
+    background-size: cover;height:30%;
+    min-height: 400px;/* comes color on full page */
+    background-position:center;
+}
+
+.nav ul{
+    list-style-type: none;
+    float:right;
+    position:center;
+    margin-right:50px;
+}
+.nav a{
+    display: inline-block;
+    padding:5px 5px;
+    text-decoration:none;
+    color:white;
+    margin-top:20px;
+
+
+}
+.nav a:hover{
+    border:1px solid brown;
+    transition:0.4s;
+}
+li{
+    display:inline-block;
+    margin-right:10px;
+    text-align: center;
+    margin-top:5px;
+}
+.line .logo {
+    height:30px;
+    width:30px;
+    margin-top:50px;
+    margin-left: 50px;
+    text-align: center;
+}
+.quote h1{
+    font-size:50px;
+    color:coral;
+    font-weight:bold;
+    text-align: center;
+    padding:20px;
+
+
+
+}
+.quote{
+    background-color:rgba(192,192,192,.4);
+    position: absolute;
+    width:100%;
+    margin:150px 0px;
+}/* second section */
+.container{
+    background-color:rgba(0,0,0,.1); /* 2 main section */
+    margin:40px;
+    position: relative;
+
+}
+
+.blocka{
+    box-shadow: 10px 0px 15px rgba(0,0,0,.9);
+    background-color:navajowhite;
+    display: inline-block;
+    width:350px;
+    height: 350px;
+    border:5px solid coral;
+    margin:40px 15px 15px 15px;
+    border-radius:12px;
+
+
+
+}
+.blockb{
+    box-shadow: 10px 0px 15px rgba(0,0,0,.9);
+    background-color:lightblue;
+    display: inline-block;
+    width:350px;
+    height: 350px;
+    margin:5px 15px 15px 15px;
+    border:5px solid cadetblue;
+    border-radius:12px;
+
+}
+.lines{
+    color:purple;
+    margin-top:15px;
+    text-align:center;
+    font-size:27px;
+
+}
+.logo i{
+    color: black;
+    height: 15px;
+    width: 15px;
+    padding:1px;
+}
+.by{
+    font-weight:bold;
+    font-size:20px;
+    color:black;
+    margin-top:15px;
+    padding:5px;
+
+}
+.footer{
+    background-color: grey;
+    display: inline-block;
+    width:340px;
+    margin:110px 0px 10px 0px;
+
+
+}
+.icon{
+    display: inline-block;
+    margin-left:85px;
+    color:black;
+    padding: 10px 0px;
+    position: center;
+    font-weight: bold;
+}
+.icon:hover{
+
+    color:blue;
+}
+
