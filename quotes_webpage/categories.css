@@ -1,0 +1,228 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+html{
+    background-color:#fff;
+    color:#555;
+    font-family:Arial,sans-serif;
+    font-weight:300;
+    font-size:20px;
+    text-rendering:optimizeLegibility;
+
+}
+.logo img{
+    float:left;
+    height: 70px;
+    width:70px;
+    border-radius:50%;
+    margin-left: 50px;
+    margin-top: 10px;
+    background-color: rgba(0, 0, 0, .6);
+
+
+}/*
+header .active{
+    background-color: rgba(0,0,0,.2);
+    margin-top:10px;
+    border-radius:70%;
+}*/
+
+header{
+    background-image:/*linear-gradient(rgba(192,192,192,.4),rgba(192,192,192,.3)),*/ url("light.jpg");
+    background-attachment: fixed;
+    font-family:pacifco;
+    background-size: cover;height:30%;
+    min-height: 400px;/* comes color on full page */
+    background-position:center;
+}
+
+.nav ul{
+    list-style-type: none;
+    float:right;
+    position:center;
+    margin-right:50px;
+}
+.nav a{
+    display: inline-block;
+    padding:5px 5px;
+    text-decoration:none;
+    color:white;
+    margin-top:20px;
+
+
+}
+.nav a:hover{
+    border:1px solid brown;
+    transition:0.4s;
+}
+li{
+    display:inline-block;
+    margin-right:10px;
+    text-align: center;
+}
+.line .logo {
+    height:30px;
+    width:30px;
+    margin-top:50px;
+    margin-left: 50px;
+    text-align: center;
+}
+.quote h1{
+    font-size:50px;
+    color:black;
+    font-weight:bold;
+    text-align: center;
+    padding:20px;
+
+
+
+}
+.quote{
+    background-color:rgba(0,0,0,.1);
+    position: absolute;
+    width:100%;
+    margin:150px 0px;
+}
+/*.blur{
+    position: relative;
+}*/
+
+/* second section */
+.blocks{
+    background-color:lightgrey;
+    margin:10px 10px;
+}
+.block{
+    display:inline-block;
+    width:350px;
+    height:350px;
+    margin:5px 15px 15px 55px;
+    text-align:center;
+    background-image:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url("inspire.jpg");
+    position:center;
+    background-size: cover;
+
+}
+.blockp{
+    display:inline-block;
+    width:350px;
+    height:350px;
+    margin:5px 15px 15px 15px;
+    text-align:center;
+    background-color:palevioletred;
+    position:center;
+    background-size: cover;
+    background-image:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url("sar.jpg");
+}
+.blockq {
+    display: inline-block;
+    width: 350px;
+    height: 350px;
+    background-color: powderblue;
+    margin: 10px;
+    text-align:center;
+    position: center;
+    background-size: cover;
+    background-image:linear-gradient(rgba(0,0,0,.7),rgba(0,0,0,.7)),url("frndd.jpg");
+}
+.block p,.blockp p,.blockq p{
+    opacity:0;
+}
+.block:hover p,.blockp:hover p,.blockq:hover p{
+    opacity:1;
+}
+.h h2{
+    text-align: center;
+    font-weight: bold;
+    color:black;
+    font-size: 30px;
+    padding:20px 20px;
+}
+
+.blocks p{
+
+    font-weight: bold;
+    padding:60px;
+    color:peachpuff;
+    font-size:35px;
+    font-family:lobster;
+    font-style:italic;
+}
+
+/*third section */
+.third{
+    background-color: lightgray;
+    margin:10px;
+}
+
+.inspires{
+    box-shadow: 10px 0px 15px rgba(0,0,0,.9);
+    display: inline-block;
+    width: 350px;
+    height: 350px;
+    background-color:navajowhite;
+    border:5px solid coral;
+    margin:40px 15px 15px 15px;
+    text-align:center;
+    position: center;
+    font-size:32px;
+    font-family:lobster;
+    font-style:italic;
+    border-radius:12px;
+
+}
+.ins2{
+    box-shadow: 10px 0px 15px rgba(0,0,0,.9);
+    display: inline-block;
+    width: 350px;
+    height: 350px;
+    background-color: lightblue;
+    text-align:center;
+    position: center;
+    border:5px solid cadetblue;
+    margin:40px 15px 15px 15px;
+    font-size:32px;
+    font-family:lobster;
+    font-style:italic;
+    border-radius:12px;
+
+}
+.ins3{
+    box-shadow: 10px 0px 15px rgba(0,0,0,.9);
+    display: inline-block;
+    width: 350px;
+    height: 350px;
+    background-color: navajowhite;
+    text-align:center;
+    position: center;
+    border:5px solid coral;
+    margin:40px 15px 15px 15px;
+    font-family:lobster;
+    font-style:italic;
+    border-radius:12px;
+
+}
+.by{
+    font-weight:bold;
+    color:black;
+    padding:70px;
+    font-size:25px;
+
+}
+.inspires p,.ins2 p,.ins3 p,.third p{
+    font-size:32px;
+    font-weight:bold;
+    text-align:center;
+    color:purple;
+    margin-top:40px;
+
+}
+.para p{
+    color: black;
+    font-size:35px;
+    padding:15px 0px 0px 0px;
+    border-bottom:black ;
+
+}
